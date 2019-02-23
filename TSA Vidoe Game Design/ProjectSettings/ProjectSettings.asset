@@ -489,7 +489,9 @@ PlayerSettings:
   webGLCompressionFormat: 1
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    1: RUNEMARK_DIALOGUE_SYSTEM
+    13: RUNEMARK_DIALOGUE_SYSTEM
   platformArchitecture: {}
   scriptingBackend: {}
   il2cppCompilerConfiguration: {}

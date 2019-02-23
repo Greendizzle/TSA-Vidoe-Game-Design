@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 1914998adb0569849acb548a5f8d48b3
+timeCreated: 1515679045
+licenseType: Store
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Acherus Grotesque
+  fontNames:
+  - Acherus Grotesque
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

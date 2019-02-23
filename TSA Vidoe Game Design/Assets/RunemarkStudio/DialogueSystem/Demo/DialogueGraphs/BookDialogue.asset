@@ -1,0 +1,897 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9734e2b86b919b4f8b5f0d2e3e3c261, type: 3}
+  m_Name: BookDialogue
+  m_EditorClassIdentifier: 
+  _id: DialogueRoot-2/23/2018 10:59:13 AM-6476
+  _description: 
+  _parentObject:
+    _serializedObject: {fileID: 0}
+    _serializedString: null
+  Variables:
+    _variables: []
+    owner: {fileID: 0}
+  PinCollection:
+    _pins:
+    - Name: IN
+      PinType: 2
+      _variableTypeString: Runemark.VisualEditor.ExecutableNode
+      _isDynamicType: 0
+      Connections: []
+    - Name: OUT
+      PinType: 3
+      _variableTypeString: Runemark.VisualEditor.ExecutableNode
+      _isDynamicType: 0
+      Connections: []
+  IsInitialized: 1
+  _hasChanges: 0
+  _position: {x: 0, y: 0}
+  time: 0
+  CanDelete: 1
+  CanCopy: 1
+  IsEntered: 0
+  IsFinished: 0
+  _calculatedNextNode:
+    Name: 
+    PinType: 0
+    _variableTypeString: 
+    _isDynamicType: 0
+    Connections: []
+  _zoomOffset: {x: 1040.1697, y: -490.8747}
+  selectedVariableID: Runemark.VisualEditor.Variable-2/23/2018 11:01:50 AM-9629
+  _commentBoxes: []
+  _nodes:
+    _nodes:
+    - {fileID: 114803363795613270}
+    - {fileID: 114892143014731428}
+    - {fileID: 114763187773310628}
+    - {fileID: 114995797235316436}
+    - {fileID: 114579531901460372}
+    - {fileID: 114373314701310316}
+    - {fileID: 114517737846115774}
+    - {fileID: 114739475182526742}
+    - {fileID: 114443248745881478}
+    - {fileID: 114031029582106284}
+    - {fileID: 114519697768103944}
+    - {fileID: 114026118835049536}
+  ExecQueue: []
+--- !u!114 &114026118835049536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ec480f713334e34c90c23d460fc0244, type: 3}
+  m_Name: Portal (Execution)
+  m_EditorClassIdentifier: 
+  _id: Portal (Execution)-2/23/2018 11:33:13 AM-9269
+  _description: 
+  _parentObject:
+    _serializedObject: {fileID: 11400000}
+    _serializedString: builtIn
+  Variables:
+    _variables: []
+    owner: {fileID: 0}
+  PinCollection:
+    _pins:
+    - Name: IN
+      PinType: 2
+      _variableTypeString: Runemark.VisualEditor.ExecutableNode
+      _isDynamicType: 0
+      Connections:
+      - NodeID: Text-2/23/2018 11:31:42 AM-9597
+        PinName: AnswerOutput_1
+  IsInitialized: 1
+  _hasChanges: 1
+  _position: {x: 1776.7919, y: 30.018734}
+  time: 0
+  CanDelete: 1
+  CanCopy: 1
+  IsEntered: 0
+  IsFinished: 0
+  _calculatedNextNode:
+    Name: 
+    PinType: 0
+    _variableTypeString: 
+    _isDynamicType: 0
+    Connections: []
+  _portalName: 1st
+  _isInput: 1
+  _outputPortalID: Portal (Execution)-2/23/2018 11:26:49 AM-5255
+--- !u!114 &114031029582106284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ec480f713334e34c90c23d460fc0244, type: 3}
+  m_Name: Portal (Execution)
+  m_EditorClassIdentifier: 
+  _id: Portal (Execution)-2/23/2018 11:31:14 AM-7697
+  _description: 
+  _parentObject:
+    _serializedObject: {fileID: 11400000}
+    _serializedString: builtIn
+  Variables:
+    _variables: []
+    owner: {fileID: 0}
+  PinCollection:
+    _pins:
+    - Name: IN
+      PinType: 2
+      _variableTypeString: Runemark.VisualEditor.ExecutableNode
+      _isDynamicType: 0
+      Connections:
+      - NodeID: Text-2/23/2018 11:28:03 AM-5591
+        PinName: AnswerOutput_0
+  IsInitialized: 1
+  _hasChanges: 1
+  _position: {x: 2368.4548, y: 141.96027}
+  time: 0
+  CanDelete: 1
+  CanCopy: 1
+  IsEntered: 0
+  IsFinished: 0
+  _calculatedNextNode:
+    Name: 
+    PinType: 0
+    _variableTypeString: 
+    _isDynamicType: 0
+    Connections: []
+  _portalName: 2nd
+  _isInput: 1
+  _outputPortalID: Portal (Execution)-2/23/2018 11:30:46 AM-6295
+--- !u!114 &114373314701310316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ec480f713334e34c90c23d460fc0244, type: 3}
+  m_Name: Portal (Execution)
+  m_EditorClassIdentifier: 
+  _id: Portal (Execution)-2/23/2018 11:25:16 AM-3439
+  _description: 
+  _parentObject:
+    _serializedObject: {fileID: 11400000}
+    _serializedString: builtIn
+  Variables:
+    _variables: []
+    owner: {fileID: 0}
+  PinCollection:
+    _pins:
+    - Name: IN
+      PinType: 2
+      _variableTypeString: Runemark.VisualEditor.ExecutableNode
+      _isDynamicType: 0
+      Connections:
+      - NodeID: Text-2/23/2018 11:04:49 AM-2333
+        PinName: AnswerOutput_1
+  IsInitialized: 1
+  _hasChanges: 1
+  _position: {x: 1149.2458, y: 52.01607}
+  time: 0
+  CanDelete: 1
+  CanCopy: 1
+  IsEntered: 0
+  IsFinished: 0
+  _calculatedNextNode:
+    Name: 
+    PinType: 0
+    _variableTypeString: 
+    _isDynamicType: 0
+    Connections: []
+  _portalName: Start
+  _isInput: 1
+  _outputPortalID: Portal (Execution)-2/23/2018 11:24:38 AM-3438
+--- !u!114 &114443248745881478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ec480f713334e34c90c23d460fc0244, type: 3}
+  m_Name: Portal (Execution)
+  m_EditorClassIdentifier: 
+  _id: Portal (Execution)-2/23/2018 11:30:46 AM-6295
+  _description: 
+  _parentObject:
+    _serializedObject: {fileID: 11400000}
+    _serializedString: builtIn
+  Variables:
+    _variables: []
+    owner: {fileID: 0}
+  PinCollection:
+    _pins:
+    - Name: OUT
+      PinType: 3
+      _variableTypeString: Runemark.VisualEditor.ExecutableNode
+      _isDynamicType: 0
+      Connections:
+      - NodeID: Text-2/23/2018 11:31:42 AM-9597
+        PinName: IN
+  IsInitialized: 0
+  _hasChanges: 1
+  _position: {x: 1184.2413, y: -163.50919}
+  time: 0
+  CanDelete: 1
+  CanCopy: 1
+  IsEntered: 0
+  IsFinished: 0
+  _calculatedNextNode:
+    Name: 
+    PinType: 0
+    _variableTypeString: 
+    _isDynamicType: 0
+    Connections: []
+  _portalName: 2nd
+  _isInput: 0
+  _outputPortalID: 
+--- !u!114 &114517737846115774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ec480f713334e34c90c23d460fc0244, type: 3}
+  m_Name: Portal (Execution)
+  m_EditorClassIdentifier: 
+  _id: Portal (Execution)-2/23/2018 11:26:49 AM-5255
+  _description: 
+  _parentObject:
+    _serializedObject: {fileID: 11400000}
+    _serializedString: builtIn
+  Variables:
+    _variables: []
+    owner: {fileID: 0}
+  PinCollection:
+    _pins:
+    - Name: OUT
+      PinType: 3
+      _variableTypeString: Runemark.VisualEditor.ExecutableNode
+      _isDynamicType: 0
+      Connections:
+      - NodeID: Text-2/23/2018 11:04:49 AM-2333
+        PinName: IN
+  IsInitialized: 1
+  _hasChanges: 1
+  _position: {x: 611.8209, y: -156.42062}
+  time: 0
+  CanDelete: 1
+  CanCopy: 1
+  IsEntered: 0
+  IsFinished: 0
+  _calculatedNextNode:
+    Name: 
+    PinType: 0
+    _variableTypeString: 
+    _isDynamicType: 0
+    Connections: []
+  _portalName: 1st
+  _isInput: 0
+  _outputPortalID: 
+--- !u!114 &114519697768103944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a74c99f54f0d124dade930ab378a01f, type: 3}
+  m_Name: Text
+  m_EditorClassIdentifier: 
+  _id: Text-2/23/2018 11:31:42 AM-9597
+  _description: 
+  _parentObject:
+    _serializedObject: {fileID: 11400000}
+    _serializedString: builtIn
+  Variables:
+    _variables:
+    - _name: AnswerVariableInput_0
+      _idSuffix: -2/23/2018 11:32:07 AM-6887
+      _group: Input
+      _type: System.String
+      Save: 0
+      DefaultValue:
+        _serializedObject: {fileID: 0}
+        _serializedString: null
+      _value:
+        _serializedObject: {fileID: 0}
+        _serializedString: AAEAAAD/////AQAAAAAAAAAGAQAAAAROZXh0Cw==
+    - _name: AnswerVariableInput_1
+      _idSuffix: -2/23/2018 11:32:12 AM-9571
+      _group: Input
+      _type: System.String
+      Save: 0
+      DefaultValue:
+        _serializedObject: {fileID: 0}
+        _serializedString: null
+      _value:
+        _serializedObject: {fileID: 0}
+        _serializedString: AAEAAAD/////AQAAAAAAAAAGAQAAAARCYWNrCw==
+    owner: {fileID: 0}
+  PinCollection:
+    _pins:
+    - Name: IN
+      PinType: 2
+      _variableTypeString: Runemark.VisualEditor.ExecutableNode
+      _isDynamicType: 0
+      Connections:
+      - NodeID: Portal (Execution)-2/23/2018 11:30:46 AM-6295
+        PinName: OUT
+      - NodeID: Text-2/23/2018 11:04:49 AM-2333
+        PinName: AnswerOutput_0
+    - Name: AnswerOutput_0
+      PinType: 3
+      _variableTypeString: Runemark.VisualEditor.ExecutableNode
+      _isDynamicType: 0
+      Connections:
+      - NodeID: Text-2/23/2018 11:28:03 AM-5591
+        PinName: IN
+    - Name: AnswerInput_0
+      PinType: 0
+      _variableTypeString: System.Boolean
+      _isDynamicType: 0
+      Connections: []
+    - Name: AnswerOutput_1
+      PinType: 3
+      _variableTypeString: Runemark.VisualEditor.ExecutableNode
+      _isDynamicType: 0
+      Connections:
+      - NodeID: Portal (Execution)-2/23/2018 11:33:13 AM-9269
+        PinName: IN
+    - Name: AnswerInput_1
+      PinType: 0
+      _variableTypeString: System.Boolean
+      _isDynamicType: 0
+      Connections: []
+  IsInitialized: 1
+  _hasChanges: 1
+  _position: {x: 1421.5997, y: -164.46912}
+  time: 0
+  CanDelete: 1
+  CanCopy: 1
+  IsEntered: 0
+  IsFinished: 0
+  _calculatedNextNode:
+    Name: 
+    PinType: 0
+    _variableTypeString: 
+    _isDynamicType: 0
+    Connections: []
+  ActorName: A mother tiger and her cubs
+  Text: 'What immortal hand or eye
+
+    could frame thy fearful symmerty?'
+  Portrait: {fileID: 21300000, guid: c717f5b9c64550a468c8f6c724751723, type: 3}
+  Audio: {fileID: 8300000, guid: c58f48dec0d15d34e92c701f98f4fdb4, type: 3}
+  AudioStartTime: 14
+  AudioEndTime: 19.5
+  AudioDelay: 0
+  CustomCameraEnable: 0
+  CameraIndex: 0
+  CustomSkinEnable: 0
+  Skin: 
+  Answers:
+  - Type: 0
+    InputName: AnswerInput_0
+    VariableName: AnswerVariableInput_0
+    OutputName: AnswerOutput_0
+  - Type: 0
+    InputName: AnswerInput_1
+    VariableName: AnswerVariableInput_1
+    OutputName: AnswerOutput_1
+  AudioFoldout: 1
+  CameraFoldout: 0
+  AdvancedSettingsFoldout: 0
+--- !u!114 &114579531901460372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ec480f713334e34c90c23d460fc0244, type: 3}
+  m_Name: Portal (Execution)
+  m_EditorClassIdentifier: 
+  _id: Portal (Execution)-2/23/2018 11:24:38 AM-3438
+  _description: 
+  _parentObject:
+    _serializedObject: {fileID: 11400000}
+    _serializedString: builtIn
+  Variables:
+    _variables: []
+    owner: {fileID: 0}
+  PinCollection:
+    _pins:
+    - Name: OUT
+      PinType: 3
+      _variableTypeString: Runemark.VisualEditor.ExecutableNode
+      _isDynamicType: 0
+      Connections:
+      - NodeID: Text-2/23/2018 11:00:28 AM-4146
+        PinName: IN
+  IsInitialized: 1
+  _hasChanges: 1
+  _position: {x: 85.87058, y: -147.46632}
+  time: 0
+  CanDelete: 1
+  CanCopy: 1
+  IsEntered: 0
+  IsFinished: 0
+  _calculatedNextNode:
+    Name: 
+    PinType: 0
+    _variableTypeString: 
+    _isDynamicType: 0
+    Connections: []
+  _portalName: Start
+  _isInput: 0
+  _outputPortalID: 
+--- !u!114 &114739475182526742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a74c99f54f0d124dade930ab378a01f, type: 3}
+  m_Name: Text
+  m_EditorClassIdentifier: 
+  _id: Text-2/23/2018 11:28:03 AM-5591
+  _description: 
+  _parentObject:
+    _serializedObject: {fileID: 11400000}
+    _serializedString: builtIn
+  Variables:
+    _variables:
+    - _name: AnswerVariableInput_0
+      _idSuffix: -2/23/2018 11:30:10 AM-9972
+      _group: Input
+      _type: System.String
+      Save: 0
+      DefaultValue:
+        _serializedObject: {fileID: 0}
+        _serializedString: null
+      _value:
+        _serializedObject: {fileID: 0}
+        _serializedString: AAEAAAD/////AQAAAAAAAAAGAQAAAARCYWNrCw==
+    - _name: AnswerVariableInput_1
+      _idSuffix: -2/23/2018 11:30:17 AM-4604
+      _group: Input
+      _type: System.String
+      Save: 0
+      DefaultValue:
+        _serializedObject: {fileID: 0}
+        _serializedString: null
+      _value:
+        _serializedObject: {fileID: 0}
+        _serializedString: AAEAAAD/////AQAAAAAAAAAGAQAAAARFeGl0Cw==
+    owner: {fileID: 0}
+  PinCollection:
+    _pins:
+    - Name: IN
+      PinType: 2
+      _variableTypeString: Runemark.VisualEditor.ExecutableNode
+      _isDynamicType: 0
+      Connections:
+      - NodeID: Text-2/23/2018 11:31:42 AM-9597
+        PinName: AnswerOutput_0
+    - Name: AnswerOutput_0
+      PinType: 3
+      _variableTypeString: Runemark.VisualEditor.ExecutableNode
+      _isDynamicType: 0
+      Connections:
+      - NodeID: Portal (Execution)-2/23/2018 11:31:14 AM-7697
+        PinName: IN
+    - Name: AnswerInput_0
+      PinType: 0
+      _variableTypeString: System.Boolean
+      _isDynamicType: 0
+      Connections: []
+    - Name: AnswerOutput_1
+      PinType: 3
+      _variableTypeString: Runemark.VisualEditor.ExecutableNode
+      _isDynamicType: 0
+      Connections: []
+    - Name: AnswerInput_1
+      PinType: 0
+      _variableTypeString: System.Boolean
+      _isDynamicType: 0
+      Connections: []
+  IsInitialized: 1
+  _hasChanges: 1
+  _position: {x: 1997.5132, y: -139.44618}
+  time: 0
+  CanDelete: 1
+  CanCopy: 1
+  IsEntered: 0
+  IsFinished: 0
+  _calculatedNextNode:
+    Name: 
+    PinType: 0
+    _variableTypeString: 
+    _isDynamicType: 0
+    Connections: []
+  ActorName: 
+  Text: Thank you for using the Self-Reading Book.
+  Portrait: {fileID: 0}
+  Audio: {fileID: 0}
+  AudioStartTime: 0
+  AudioEndTime: 0
+  AudioDelay: 0
+  CustomCameraEnable: 0
+  CameraIndex: 0
+  CustomSkinEnable: 0
+  Skin: 
+  Answers:
+  - Type: 0
+    InputName: AnswerInput_1
+    VariableName: AnswerVariableInput_1
+    OutputName: AnswerOutput_1
+  - Type: 0
+    InputName: AnswerInput_0
+    VariableName: AnswerVariableInput_0
+    OutputName: AnswerOutput_0
+  AudioFoldout: 0
+  CameraFoldout: 0
+  AdvancedSettingsFoldout: 0
+--- !u!114 &114763187773310628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a74c99f54f0d124dade930ab378a01f, type: 3}
+  m_Name: Text
+  m_EditorClassIdentifier: 
+  _id: Text-2/23/2018 11:00:28 AM-4146
+  _description: 
+  _parentObject:
+    _serializedObject: {fileID: 11400000}
+    _serializedString: builtIn
+  Variables:
+    _variables:
+    - _name: AnswerVariableInput_0
+      _idSuffix: -2/23/2018 11:01:16 AM-5607
+      _group: Input
+      _type: System.String
+      Save: 0
+      DefaultValue:
+        _serializedObject: {fileID: 0}
+        _serializedString: null
+      _value:
+        _serializedObject: {fileID: 0}
+        _serializedString: AAEAAAD/////AQAAAAAAAAAGAQAAAAROZXh0Cw==
+    owner: {fileID: 0}
+  PinCollection:
+    _pins:
+    - Name: IN
+      PinType: 2
+      _variableTypeString: Runemark.VisualEditor.ExecutableNode
+      _isDynamicType: 0
+      Connections:
+      - NodeID: Portal (Execution)-2/23/2018 11:24:38 AM-3438
+        PinName: OUT
+      - NodeID: Conversation-2/23/2018 10:59:13 AM-7556
+        PinName: OUT
+    - Name: AnswerOutput_0
+      PinType: 3
+      _variableTypeString: Runemark.VisualEditor.ExecutableNode
+      _isDynamicType: 0
+      Connections:
+      - NodeID: Text-2/23/2018 11:04:49 AM-2333
+        PinName: IN
+    - Name: AnswerInput_0
+      PinType: 0
+      _variableTypeString: System.Boolean
+      _isDynamicType: 0
+      Connections: []
+  IsInitialized: 1
+  _hasChanges: 1
+  _position: {x: 271.03284, y: -122.9559}
+  time: 0
+  CanDelete: 1
+  CanCopy: 1
+  IsEntered: 0
+  IsFinished: 0
+  _calculatedNextNode:
+    Name: 
+    PinType: 0
+    _variableTypeString: 
+    _isDynamicType: 0
+    Connections: []
+  ActorName: 
+  Text: This is a Self-reading Book. Turn a page to hear the poem!
+  Portrait: {fileID: 0}
+  Audio: {fileID: 0}
+  AudioStartTime: 0
+  AudioEndTime: 0
+  AudioDelay: 0
+  CustomCameraEnable: 0
+  CameraIndex: 0
+  CustomSkinEnable: 0
+  Skin: 
+  Answers:
+  - Type: 0
+    InputName: AnswerInput_0
+    VariableName: AnswerVariableInput_0
+    OutputName: AnswerOutput_0
+  AudioFoldout: 0
+  CameraFoldout: 0
+  AdvancedSettingsFoldout: 0
+--- !u!114 &114803363795613270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7c0b6d2a7064404d9b4c770c12cd64d, type: 3}
+  m_Name: Conversation
+  m_EditorClassIdentifier: 
+  _id: Conversation-2/23/2018 10:59:13 AM-7556
+  _description: 
+  _parentObject:
+    _serializedObject: {fileID: 11400000}
+    _serializedString: builtIn
+  Variables:
+    _variables: []
+    owner: {fileID: 0}
+  PinCollection:
+    _pins:
+    - Name: OUT
+      PinType: 3
+      _variableTypeString: Runemark.VisualEditor.ExecutableNode
+      _isDynamicType: 0
+      Connections:
+      - NodeID: Text-2/23/2018 11:00:28 AM-4146
+        PinName: IN
+  IsInitialized: 1
+  _hasChanges: 0
+  _position: {x: -491.6136, y: -81.78559}
+  time: 0
+  CanDelete: 0
+  CanCopy: 0
+  IsEntered: 0
+  IsFinished: 0
+  _calculatedNextNode:
+    Name: 
+    PinType: 0
+    _variableTypeString: 
+    _isDynamicType: 0
+    Connections: []
+--- !u!114 &114892143014731428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7c0b6d2a7064404d9b4c770c12cd64d, type: 3}
+  m_Name: Ambient
+  m_EditorClassIdentifier: 
+  _id: Ambient-2/23/2018 10:59:13 AM-4142
+  _description: 
+  _parentObject:
+    _serializedObject: {fileID: 11400000}
+    _serializedString: builtIn
+  Variables:
+    _variables: []
+    owner: {fileID: 0}
+  PinCollection:
+    _pins:
+    - Name: OUT
+      PinType: 3
+      _variableTypeString: Runemark.VisualEditor.ExecutableNode
+      _isDynamicType: 0
+      Connections: []
+  IsInitialized: 1
+  _hasChanges: 0
+  _position: {x: -389.96616, y: 124.5464}
+  time: 0
+  CanDelete: 0
+  CanCopy: 0
+  IsEntered: 0
+  IsFinished: 0
+  _calculatedNextNode:
+    Name: 
+    PinType: 0
+    _variableTypeString: 
+    _isDynamicType: 0
+    Connections: []
+--- !u!114 &114892367941749236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a74c99f54f0d124dade930ab378a01f, type: 3}
+  m_Name: Text
+  m_EditorClassIdentifier: 
+  _id: 
+  _description: 
+  _parentObject:
+    _serializedObject: {fileID: 0}
+    _serializedString: null
+  Variables:
+    _variables: []
+    owner: {fileID: 0}
+  PinCollection:
+    _pins: []
+  IsInitialized: 0
+  _hasChanges: 0
+  _position: {x: 0, y: 0}
+  time: 0
+  CanDelete: 1
+  CanCopy: 1
+  IsEntered: 0
+  IsFinished: 0
+  _calculatedNextNode:
+    Name: 
+    PinType: 0
+    _variableTypeString: 
+    _isDynamicType: 0
+    Connections: []
+  ActorName: 
+  Text: Write your text here...
+  Portrait: {fileID: 0}
+  Audio: {fileID: 0}
+  AudioStartTime: 0
+  AudioEndTime: 0
+  AudioDelay: 0
+  CustomCameraEnable: 0
+  CameraIndex: 0
+  CustomSkinEnable: 0
+  Skin: 
+  Answers: []
+  AudioFoldout: 0
+  CameraFoldout: 0
+  AdvancedSettingsFoldout: 0
+--- !u!114 &114995797235316436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a74c99f54f0d124dade930ab378a01f, type: 3}
+  m_Name: Text
+  m_EditorClassIdentifier: 
+  _id: Text-2/23/2018 11:04:49 AM-2333
+  _description: 
+  _parentObject:
+    _serializedObject: {fileID: 11400000}
+    _serializedString: builtIn
+  Variables:
+    _variables:
+    - _name: AnswerVariableInput_0
+      _idSuffix: -2/23/2018 11:04:56 AM-2477
+      _group: Input
+      _type: System.String
+      Save: 0
+      DefaultValue:
+        _serializedObject: {fileID: 0}
+        _serializedString: null
+      _value:
+        _serializedObject: {fileID: 0}
+        _serializedString: AAEAAAD/////AQAAAAAAAAAGAQAAAAROZXh0Cw==
+    - _name: AnswerVariableInput_1
+      _idSuffix: -2/23/2018 11:05:02 AM-6579
+      _group: Input
+      _type: System.String
+      Save: 0
+      DefaultValue:
+        _serializedObject: {fileID: 0}
+        _serializedString: null
+      _value:
+        _serializedObject: {fileID: 0}
+        _serializedString: AAEAAAD/////AQAAAAAAAAAGAQAAAARCYWNrCw==
+    owner: {fileID: 0}
+  PinCollection:
+    _pins:
+    - Name: IN
+      PinType: 2
+      _variableTypeString: Runemark.VisualEditor.ExecutableNode
+      _isDynamicType: 0
+      Connections:
+      - NodeID: Text-2/23/2018 11:00:28 AM-4146
+        PinName: AnswerOutput_0
+      - NodeID: Portal (Execution)-2/23/2018 11:26:49 AM-5255
+        PinName: OUT
+    - Name: AnswerOutput_0
+      PinType: 3
+      _variableTypeString: Runemark.VisualEditor.ExecutableNode
+      _isDynamicType: 0
+      Connections:
+      - NodeID: Text-2/23/2018 11:31:42 AM-9597
+        PinName: IN
+    - Name: AnswerInput_0
+      PinType: 0
+      _variableTypeString: System.Boolean
+      _isDynamicType: 0
+      Connections: []
+    - Name: AnswerOutput_1
+      PinType: 3
+      _variableTypeString: Runemark.VisualEditor.ExecutableNode
+      _isDynamicType: 0
+      Connections:
+      - NodeID: Portal (Execution)-2/23/2018 11:25:16 AM-3439
+        PinName: IN
+    - Name: AnswerInput_1
+      PinType: 0
+      _variableTypeString: System.Boolean
+      _isDynamicType: 0
+      Connections: []
+  IsInitialized: 1
+  _hasChanges: 1
+  _position: {x: 803.7406, y: -142.44049}
+  time: 0
+  CanDelete: 1
+  CanCopy: 1
+  IsEntered: 0
+  IsFinished: 0
+  _calculatedNextNode:
+    Name: 
+    PinType: 0
+    _variableTypeString: 
+    _isDynamicType: 0
+    Connections: []
+  ActorName: William Blake
+  Text: 'The Tyger
+
+    by William Blake
+
+
+    Tyger, tyger, burning bright
+
+    In the forest of the Night.'
+  Portrait: {fileID: 21300000, guid: 6cfe4d1be127e114596cf9a5432ce70f, type: 3}
+  Audio: {fileID: 8300000, guid: c58f48dec0d15d34e92c701f98f4fdb4, type: 3}
+  AudioStartTime: 0.37249804
+  AudioEndTime: 14
+  AudioDelay: 0
+  CustomCameraEnable: 0
+  CameraIndex: 0
+  CustomSkinEnable: 0
+  Skin: 
+  Answers:
+  - Type: 0
+    InputName: AnswerInput_0
+    VariableName: AnswerVariableInput_0
+    OutputName: AnswerOutput_0
+  - Type: 0
+    InputName: AnswerInput_1
+    VariableName: AnswerVariableInput_1
+    OutputName: AnswerOutput_1
+  AudioFoldout: 1
+  CameraFoldout: 0
+  AdvancedSettingsFoldout: 0
