@@ -226,11 +226,11 @@ MonoBehaviour:
   textDisplay: {fileID: 1744939329}
   sentences:
   - 'ALBERT: Hey, Kalvin..'
-  - 'KALVIN: What''s Up'
+  - 'KALVIN: What''s up.'
   - 'ALBERT: Do you have all of the materials?'
-  - 'KALVIN: I should let me check real quick'
-  - 'KALVIN: Oh shoot I forgot the flash drive I''ll be right back'
-  - 'ALBERT: Ok. Be quick'
+  - 'KALVIN: Let me check..'
+  - 'KALVIN: Oh shoot I forgot the flash drive. I''ll be right back..'
+  - 'ALBERT: Ok. Be quick.'
   typingSpeed: 0.02
   continueButton: {fileID: 1917131920}
 --- !u!4 &1712830012
