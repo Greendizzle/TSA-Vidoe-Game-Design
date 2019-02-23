@@ -418,6 +418,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d15c039e21b745846b24a097fc3767cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 1603533635}
+  dialogueText: {fileID: 1710379433}
+  animator: {fileID: 1677180263}
 --- !u!4 &783686365
 Transform:
   m_ObjectHideFlags: 0
@@ -663,6 +668,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3555fd4286d74e43bf5494ea08f02fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: Bob
+    sentences:
+    - Hey Kalvin!
+    - Did you bring the portfolio?
 --- !u!114 &1604953537
 MonoBehaviour:
   m_ObjectHideFlags: 0
