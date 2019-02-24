@@ -11,14 +11,20 @@ public class Dialog : MonoBehaviour {
     private int index;
     public float typingSpeed;
     public GameObject continueButton;
+    public int nextscene;
 
 
     void Update()
     {
         if (textDisplay.text == sentences[index]) {
             continueButton.SetActive(true);
-
+            
         }
+        if (nextscene == 6) {
+            Application.LoadLevel("Matching");
+        }
+
+        
     }
 
 
@@ -50,8 +56,12 @@ public class Dialog : MonoBehaviour {
         }
         else { textDisplay.text = ""; }
         continueButton.SetActive(false);
-        Application.LoadLevel("Matching");
+        Debug.Log("It worked?");
+        nextscene += 1;
+        
 
     }
-  
+
+    
+
 }

@@ -14,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/New Diolauge.unity
     guid: 09962a2a512feae4d9edf823e59ab7f2
+<<<<<<< HEAD
+=======
+  - enabled: 1
+    path: Assets/Scenes/Matching.unity
+    guid: 3b133cd21c47c95419acc4823c130ac8
+  - enabled: 1
+    path: Assets/Scenes/Lock.unity
+    guid: ed0373e7ee325bd4dbcf4068b6ae11b8
+>>>>>>> 2e9edd9a0664514c41c71737037ee963cec1ea78
   m_configObjects: {}
