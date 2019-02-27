@@ -580,9 +580,9 @@ MonoBehaviour:
   - Daniel Ok. Make sure to hurry back!
   typingSpeed: 0.02
   continueButton: {fileID: 1917131920}
-  nextscene: 12
+  nextscene: 0
   numberofsentences: 12
-  nextlevelname: 
+  nextlevelname: 2
 --- !u!4 &1712830012
 Transform:
   m_ObjectHideFlags: 0
