@@ -194,7 +194,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:TSA Vidoe Game Design/Assets/Scenes/AHHHH.unity
+--- !u!1 &831652242
+=======
 --- !u!1 &540370529
+>>>>>>> 9322482f61031c95c602cdd9b06f4b62f27e14fa:TSA Vidoe Game Design/Assets/Scenes/New Diolauge.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -202,22 +206,50 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD:TSA Vidoe Game Design/Assets/Scenes/AHHHH.unity
+  - component: {fileID: 831652243}
+  - component: {fileID: 831652245}
+  - component: {fileID: 831652244}
+  m_Layer: 5
+  m_Name: Image (3)
+=======
   - component: {fileID: 540370530}
   - component: {fileID: 540370532}
   - component: {fileID: 540370531}
   m_Layer: 5
   m_Name: BlackFade
+>>>>>>> 9322482f61031c95c602cdd9b06f4b62f27e14fa:TSA Vidoe Game Design/Assets/Scenes/New Diolauge.unity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:TSA Vidoe Game Design/Assets/Scenes/AHHHH.unity
+--- !u!224 &831652243
+=======
 --- !u!224 &540370530
+>>>>>>> 9322482f61031c95c602cdd9b06f4b62f27e14fa:TSA Vidoe Game Design/Assets/Scenes/New Diolauge.unity
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:TSA Vidoe Game Design/Assets/Scenes/AHHHH.unity
+  m_GameObject: {fileID: 831652242}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -433}
+  m_LocalScale: {x: 1.0000002, y: 0.99999994, z: 1.0000002}
+  m_Children: []
+  m_Father: {fileID: 1860357696}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 528, y: 68}
+  m_SizeDelta: {x: 756.1, y: 656}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &831652244
+=======
   m_GameObject: {fileID: 540370529}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -232,26 +264,39 @@ RectTransform:
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &540370531
+>>>>>>> 9322482f61031c95c602cdd9b06f4b62f27e14fa:TSA Vidoe Game Design/Assets/Scenes/New Diolauge.unity
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:TSA Vidoe Game Design/Assets/Scenes/AHHHH.unity
+  m_GameObject: {fileID: 831652242}
+=======
   m_GameObject: {fileID: 540370529}
+>>>>>>> 9322482f61031c95c602cdd9b06f4b62f27e14fa:TSA Vidoe Game Design/Assets/Scenes/New Diolauge.unity
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
+<<<<<<< HEAD:TSA Vidoe Game Design/Assets/Scenes/AHHHH.unity
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+=======
   m_Color: {r: 0, g: 0, b: 0, a: 1}
+>>>>>>> 9322482f61031c95c602cdd9b06f4b62f27e14fa:TSA Vidoe Game Design/Assets/Scenes/New Diolauge.unity
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+<<<<<<< HEAD:TSA Vidoe Game Design/Assets/Scenes/AHHHH.unity
+  m_Sprite: {fileID: 21300000, guid: f9ce4087ca734c449b3a50da6427fb83, type: 3}
+=======
   m_Sprite: {fileID: 0}
+>>>>>>> 9322482f61031c95c602cdd9b06f4b62f27e14fa:TSA Vidoe Game Design/Assets/Scenes/New Diolauge.unity
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -260,15 +305,25 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+<<<<<<< HEAD:TSA Vidoe Game Design/Assets/Scenes/AHHHH.unity
+--- !u!222 &831652245
+=======
 --- !u!222 &540370532
+>>>>>>> 9322482f61031c95c602cdd9b06f4b62f27e14fa:TSA Vidoe Game Design/Assets/Scenes/New Diolauge.unity
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:TSA Vidoe Game Design/Assets/Scenes/AHHHH.unity
+  m_GameObject: {fileID: 831652242}
+  m_CullTransparentMesh: 0
+--- !u!1 &1010042145
+=======
   m_GameObject: {fileID: 540370529}
   m_CullTransparentMesh: 0
 --- !u!1 &1293433200
+>>>>>>> 9322482f61031c95c602cdd9b06f4b62f27e14fa:TSA Vidoe Game Design/Assets/Scenes/New Diolauge.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -276,23 +331,51 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD:TSA Vidoe Game Design/Assets/Scenes/AHHHH.unity
+  - component: {fileID: 1010042146}
+  - component: {fileID: 1010042148}
+  - component: {fileID: 1010042147}
+  m_Layer: 5
+  m_Name: Panel
+=======
   - component: {fileID: 1293433201}
   - component: {fileID: 1293433204}
   - component: {fileID: 1293433203}
   - component: {fileID: 1293433202}
   m_Layer: 5
   m_Name: Canvas
+>>>>>>> 9322482f61031c95c602cdd9b06f4b62f27e14fa:TSA Vidoe Game Design/Assets/Scenes/New Diolauge.unity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:TSA Vidoe Game Design/Assets/Scenes/AHHHH.unity
+--- !u!224 &1010042146
+=======
 --- !u!224 &1293433201
+>>>>>>> 9322482f61031c95c602cdd9b06f4b62f27e14fa:TSA Vidoe Game Design/Assets/Scenes/New Diolauge.unity
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:TSA Vidoe Game Design/Assets/Scenes/AHHHH.unity
+  m_GameObject: {fileID: 1010042145}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1860357696}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 121.9}
+  m_SizeDelta: {x: 0, y: -243.79}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1010042147
+=======
   m_GameObject: {fileID: 1293433200}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -310,11 +393,39 @@ RectTransform:
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1293433202
+>>>>>>> 9322482f61031c95c602cdd9b06f4b62f27e14fa:TSA Vidoe Game Design/Assets/Scenes/New Diolauge.unity
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:TSA Vidoe Game Design/Assets/Scenes/AHHHH.unity
+  m_GameObject: {fileID: 1010042145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: f2fab8ed5f92a2e43a194a16ddb6ffd7, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &1010042148
+CanvasRenderer:
+=======
   m_GameObject: {fileID: 1293433200}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -328,10 +439,15 @@ MonoBehaviour:
     m_Bits: 4294967295
 --- !u!114 &1293433203
 MonoBehaviour:
+>>>>>>> 9322482f61031c95c602cdd9b06f4b62f27e14fa:TSA Vidoe Game Design/Assets/Scenes/New Diolauge.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:TSA Vidoe Game Design/Assets/Scenes/AHHHH.unity
+  m_GameObject: {fileID: 1010042145}
+  m_CullTransparentMesh: 0
+=======
   m_GameObject: {fileID: 1293433200}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -435,6 +551,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> 9322482f61031c95c602cdd9b06f4b62f27e14fa:TSA Vidoe Game Design/Assets/Scenes/New Diolauge.unity
 --- !u!1 &1712830010
 GameObject:
   m_ObjectHideFlags: 0
@@ -466,6 +583,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1744939329}
   sentences:
+<<<<<<< HEAD:TSA Vidoe Game Design/Assets/Scenes/AHHHH.unity
+  - 'Elevator Keeper: STOP!! '
+  - 'David: *Stops running* Huh?! Can I help you '
+  - 'Elevator Keeper: Do you know who I am?'
+  - "David: Uhh. I\u2019m sorry but I don\u2019t\u2026 "
+  - 'Elevator Keeper: Well I am the watcher of the moving doors, guardian of the floors,
+    and knight of the nobles. '
+  - 'David: So like an elevator keeper? '
+  - "Elevator keeper: Sigh* Yes\u2026 "
+  - "David: Oh that\u2019s cool I guess. So can I go into the elevator now? "
+  - "Elevator Keeper: If you want to pass you must correctly answer seven of my questions.
+    If not you shall be here forever\u2026 "
+  - 'David: Do I really have to? I have somewhere to be. '
+  - 'Elevator Keeper: Yes! It seems like you have to answer quick. '
+  - 'David: Sigh*  '
+  typingSpeed: 0.02
+  continueButton: {fileID: 1917131920}
+  nextscene: 0
+=======
   - 'ALBERT: Good Morning Kalvin! Are you ready for the big day?'
   - "KALVIN: *Yawn* Morning Albert, you seem excited today\u2026"
   - "ALBERT: Don\u2019t get me wrong, sure I\u2019m excited but It feels like there
@@ -483,6 +619,7 @@ MonoBehaviour:
   continueButton: {fileID: 1917131920}
   nextscene: 0
   numberofsentences: 0
+>>>>>>> 9322482f61031c95c602cdd9b06f4b62f27e14fa:TSA Vidoe Game Design/Assets/Scenes/New Diolauge.unity
 --- !u!4 &1712830012
 Transform:
   m_ObjectHideFlags: 0
@@ -537,8 +674,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3c83e82e79d79024d97db65796576fc6, type: 2}
+  m_sharedMaterial: {fileID: 21955265061826550, guid: 3c83e82e79d79024d97db65796576fc6,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -649,8 +787,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
+<<<<<<< HEAD:TSA Vidoe Game Design/Assets/Scenes/AHHHH.unity
+  m_Father: {fileID: 1860357696}
+  m_RootOrder: 4
+=======
   m_Father: {fileID: 1293433201}
   m_RootOrder: 1
+>>>>>>> 9322482f61031c95c602cdd9b06f4b62f27e14fa:TSA Vidoe Game Design/Assets/Scenes/New Diolauge.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
@@ -721,6 +864,122 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD:TSA Vidoe Game Design/Assets/Scenes/AHHHH.unity
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1811479058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1811479059}
+  - component: {fileID: 1811479061}
+  - component: {fileID: 1811479060}
+  m_Layer: 5
+  m_Name: Image (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1811479059
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811479058}
+  m_LocalRotation: {x: 0, y: 0.9848078, z: -0, w: -0.17364809}
+  m_LocalPosition: {x: 0, y: 0, z: 21}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1860357696}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 200, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -627, y: 110}
+  m_SizeDelta: {x: 468.1, y: 445.4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1811479060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811479058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 61adc9033a3ce6745a4818fea170f759, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &1811479061
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811479058}
+  m_CullTransparentMesh: 0
+--- !u!1 &1860357695
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1860357696}
+  - component: {fileID: 1860357699}
+  - component: {fileID: 1860357698}
+  - component: {fileID: 1860357697}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1860357696
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860357695}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1010042146}
+  - {fileID: 1973598930}
+  - {fileID: 1811479059}
+  - {fileID: 831652243}
+  - {fileID: 1744939331}
+  - {fileID: 1917131921}
+  m_Father: {fileID: 0}
+=======
+>>>>>>> 9322482f61031c95c602cdd9b06f4b62f27e14fa:TSA Vidoe Game Design/Assets/Scenes/New Diolauge.unity
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1917131920
@@ -753,12 +1012,17 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
+<<<<<<< HEAD:TSA Vidoe Game Design/Assets/Scenes/AHHHH.unity
+  m_Father: {fileID: 1860357696}
+  m_RootOrder: 5
+=======
   m_Father: {fileID: 1293433201}
   m_RootOrder: 2
+>>>>>>> 9322482f61031c95c602cdd9b06f4b62f27e14fa:TSA Vidoe Game Design/Assets/Scenes/New Diolauge.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 643, y: -376}
+  m_AnchoredPosition: {x: 636, y: -324.46}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1917131922
@@ -847,8 +1111,9 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: Continue
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3c83e82e79d79024d97db65796576fc6, type: 2}
+  m_sharedMaterial: {fileID: 21955265061826550, guid: 3c83e82e79d79024d97db65796576fc6,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -947,4 +1212,78 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1917131920}
+  m_CullTransparentMesh: 0
+--- !u!1 &1973598929
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1973598930}
+  - component: {fileID: 1973598932}
+  - component: {fileID: 1973598931}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1973598930
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973598929}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1860357696}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -229.3}
+  m_SizeDelta: {x: 1600, y: 240.3}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1973598931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973598929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &1973598932
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973598929}
   m_CullTransparentMesh: 0

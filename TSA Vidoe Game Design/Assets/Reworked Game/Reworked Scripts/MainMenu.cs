@@ -14,7 +14,7 @@ public class MainMenu : MonoBehaviour
 
     public void Update()
     {
-        if (numberofsentences >= buttonTimes)
+        if (numberofsentences <= buttonTimes)
         {
 
             FadeToNextLevel();
