@@ -12,19 +12,18 @@ public class Dialog : MonoBehaviour {
     public float typingSpeed;
     public GameObject continueButton;
     public int nextscene;
+    private int buttonTimes;
+    public int numberofsentences;
 
 
     void Update()
     {
         if (textDisplay.text == sentences[index]) {
             continueButton.SetActive(true);
-            
-        }
-        if (nextscene == 6) {
-            Application.LoadLevel("Matching");
+
         }
 
-        
+
     }
 
 
@@ -33,7 +32,7 @@ public class Dialog : MonoBehaviour {
         StartCoroutine(Type());
     }
 
-    IEnumerator Type(){
+    IEnumerator Type() {
 
         foreach (char letter in sentences[index].ToCharArray()) {
             textDisplay.text += letter;
@@ -41,7 +40,7 @@ public class Dialog : MonoBehaviour {
 
         }
 
-    
+
     }
 
     public void NextSentence() {
@@ -58,10 +57,16 @@ public class Dialog : MonoBehaviour {
         continueButton.SetActive(false);
         Debug.Log("It worked?");
         nextscene += 1;
-        
+
 
     }
 
+    public void buttonPress() {
+
+
+        buttonTimes += 1;
+
+}
     
 
 }

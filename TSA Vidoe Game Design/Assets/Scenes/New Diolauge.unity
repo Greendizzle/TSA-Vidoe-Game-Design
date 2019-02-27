@@ -419,6 +419,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1435610763}
+  numberofsentences: 0
 --- !u!4 &1435610765
 Transform:
   m_ObjectHideFlags: 0
@@ -465,15 +466,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1744939329}
   sentences:
-  - 'ALBERT: Hey, Kalvin..'
-  - 'KALVIN: What''s up.'
-  - 'ALBERT: Do you have all of the materials?'
-  - 'KALVIN: Let me check..'
-  - 'KALVIN: Oh shoot I forgot the flash drive. I''ll be right back..'
-  - 'ALBERT: Ok. Be quick.'
+  - 'ALBERT: Good Morning Kalvin! Are you ready for the big day?'
+  - "KALVIN: *Yawn* Morning Albert, you seem excited today\u2026"
+  - "ALBERT: Don\u2019t get me wrong, sure I\u2019m excited but It feels like there
+    are butterflies in my stomach."
+  - "KALVIN:  I feel you man, to think we\u2019ve made it this far and it all comes
+    down today."
+  - "ALBERT: Yea, we\u2019re about to head off in about in an hour. You have the flash
+    drive right?"
+  - 'KALVIN: I should have it Let me recheck my bag real quick.'
+  - "KALVIN:  \u2026 Oh, it seems like I forgot to the flash drive in my room."
+  - 'ALBERT: No problem man, just go up real quick and get it.'
+  - "KALVIN : Okay! I\u2019ll be right back real quick. "
+  - 'ALBERT: Ok. Make sure to hurry back!'
   typingSpeed: 0.02
   continueButton: {fileID: 1917131920}
   nextscene: 0
+  numberofsentences: 0
 --- !u!4 &1712830012
 Transform:
   m_ObjectHideFlags: 0
@@ -794,6 +803,17 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1712830011}
         m_MethodName: NextSentence
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1435610764}
+        m_MethodName: buttonPress
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
