@@ -539,7 +539,7 @@ MonoBehaviour:
   continueButton: {fileID: 1917131920}
   nextscene: 0
   numberofsentences: 12
-  nextlevelname: 3
+  nextlevelname: Level 1 Transition
 --- !u!4 &1712830012
 Transform:
   m_ObjectHideFlags: 0

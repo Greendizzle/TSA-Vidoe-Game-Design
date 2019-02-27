@@ -491,9 +491,9 @@ MonoBehaviour:
     right corner... Beware for there are dangers along the way...
   typingSpeed: 0.02
   continueButton: {fileID: 1917131920}
-  nextscene: 11
-  numberofsentences: 12
-  nextlevelname: 
+  nextscene: 0
+  numberofsentences: 3
+  nextlevelname: Lock
 --- !u!4 &1712830012
 Transform:
   m_ObjectHideFlags: 0

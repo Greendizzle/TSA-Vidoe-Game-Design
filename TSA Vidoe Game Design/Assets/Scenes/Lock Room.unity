@@ -486,9 +486,9 @@ MonoBehaviour:
   - 'David: *Inspects the lock* Hmm... Maybe this is what I have to do to unlock it...'
   typingSpeed: 0.02
   continueButton: {fileID: 1917131920}
-  nextscene: 11
-  numberofsentences: 12
-  nextlevelname: 
+  nextscene: 0
+  numberofsentences: 3
+  nextlevelname: Level 3 Transition
 --- !u!4 &1712830012
 Transform:
   m_ObjectHideFlags: 0

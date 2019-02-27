@@ -182,7 +182,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The Maze that Locks
+  m_Text: Matching
 --- !u!222 &106185561
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -484,16 +484,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1744939329}
   sentences:
-  - The player is shown a maze within a lock and controls a yellow square for the
-    level....
-  - The player can move the square with their WASD keys or arrow keys...
-  - To beat level 3 the player must move the sqaure from the top left corner to bottom
-    right corner... Beware for there are dangers along the way...
+  - The player must use their left-click button to click a card they wish to reveal...
+  - The player must use their left-click button to click a card they wish to reveal...
+  - To beat level 2 the player must find all 4 sets of matching shapes...To beat level
+    2 the player must find all 4 sets of matching shapes...
   typingSpeed: 0.02
   continueButton: {fileID: 1917131920}
   nextscene: 11
   numberofsentences: 12
-  nextlevelname: 
+  nextlevelname: Matching
 --- !u!4 &1712830012
 Transform:
   m_ObjectHideFlags: 0
