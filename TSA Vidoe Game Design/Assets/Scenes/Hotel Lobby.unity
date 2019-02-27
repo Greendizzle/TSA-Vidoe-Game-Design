@@ -414,6 +414,16 @@ PrefabInstance:
       propertyPath: numberofsentences
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 5551501798056362469, guid: f5390f4209455b842978a7572bd1a772,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5551501798056362468, guid: f5390f4209455b842978a7572bd1a772,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5551501796809267746, guid: f5390f4209455b842978a7572bd1a772,
         type: 3}
       propertyPath: m_havePropertiesChanged
@@ -443,7 +453,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 1526695939}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9188eb6f3bf7fc742a08e87e85069382, type: 3}
   m_Name: 
@@ -496,8 +506,9 @@ MonoBehaviour:
   - Daniel Ok. Make sure to hurry back!
   typingSpeed: 0.02
   continueButton: {fileID: 1917131920}
-  nextscene: 11
+  nextscene: 12
   numberofsentences: 12
+  nextlevelname: 
 --- !u!4 &1712830012
 Transform:
   m_ObjectHideFlags: 0

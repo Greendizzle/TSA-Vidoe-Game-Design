@@ -12,14 +12,19 @@ public class Dialog : MonoBehaviour {
     public float typingSpeed;
     public GameObject continueButton;
     public int nextscene;
-    private int buttonTimes;
     public int numberofsentences;
-
+    public string nextlevelname;
 
     void Update()
     {
         if (textDisplay.text == sentences[index]) {
             continueButton.SetActive(true);
+
+        }
+
+        if (nextscene == numberofsentences) {
+            Application.LoadLevel(nextlevelname);
+            Debug.Log("Done");
 
         }
 
@@ -64,7 +69,7 @@ public class Dialog : MonoBehaviour {
     public void buttonPress() {
 
 
-        buttonTimes += 1;
+      
 
 }
     
