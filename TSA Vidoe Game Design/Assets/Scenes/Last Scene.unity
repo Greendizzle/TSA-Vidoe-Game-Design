@@ -563,21 +563,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1744939329}
   sentences:
-  - 'Daniel: Morning David! About time that you woke up!'
-  - 'David: *Yawn* Morning Daniel, you seem way too excited today.'
-  - 'Daniel: Don''t get me wrong David, sure I''m excited but I feel more nervous.
-    I swear there are butterflies in my stomach.'
-  - 'David: I feel you bro, to think we''ve made it this far and it all comes down
-    to today.'
-  - 'Daniel: Yea... We''re about to head off in about an hour give or take. You have
-    everything with you right?'
-  - 'David: I should have it. Here lemme check my bag real quick.'
-  - 'David: ...'
-  - 'Daniel: Is there something wrong?'
-  - 'David: It seems like I accidentally left the flash drive in the room.'
-  - 'Daniel: No problem man, just go up real quick and get it.'
-  - 'David: Okay! I''ll be right back real quick.'
-  - Daniel Ok. Make sure to hurry back!
+  - 'Daniel: *Runs up to David* Where have you been David? I''ve started getting worried
+    and how in the world did it even take you nearly an hour to get the flash drive?'
+  - 'David: It''s very complicated but don''t worry I got the flash drive with me.
+    Let''s hurry to the bus before we get left behind and I''ll explain on the way...'
   typingSpeed: 0.02
   continueButton: {fileID: 1917131920}
   nextscene: 12
@@ -849,13 +838,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1811479058}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0.9848078, z: -0, w: -0.17364809}
   m_LocalPosition: {x: 0, y: 0, z: 21}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1860357696}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 200, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -627, y: 110}
@@ -881,7 +870,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: a778d7c41c3a1b14fb81b03cf0a3cc22, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 61adc9033a3ce6745a4818fea170f759, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
