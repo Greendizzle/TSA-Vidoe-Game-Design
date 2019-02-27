@@ -23,13 +23,6 @@ public class Dialog : MonoBehaviour {
 
         }
 
-        if (numberofsentences >= buttonTimes) {
-
-            FadeToNextLevel();
-
-        }
-
-
 
     }
 
