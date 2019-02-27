@@ -24,7 +24,19 @@ public class GameManager : MonoBehaviour {
 	[SerializeField]
 	private Animator animator;
 
-	void Start()
+    public int score;
+
+
+
+    public void Update()
+    {
+        if (score == 7) {
+            
+
+        }
+    }
+
+    void Start()
 	{
 		if (unansweredQuestions == null || unansweredQuestions.Count == 0) {
 			unansweredQuestions = questions.ToList<question> ();
@@ -64,8 +76,10 @@ public class GameManager : MonoBehaviour {
 		animator.SetTrigger ("True");
 		if (currentQuestion.isTrue) {
 			Debug.Log ("Correct");
+            score += 1;
 		} else {
 			Debug.Log ("WRONG");
+            score -= 2;
 		}
 		StartCoroutine (TranstionToNextQuestion());
 	}
@@ -75,9 +89,10 @@ public class GameManager : MonoBehaviour {
 		animator.SetTrigger ("False");
 		if (!currentQuestion.isTrue) {
 			Debug.Log ("Correct");
-		} else {
+            score += 1;
+        } else {
 			Debug.Log ("WRONG");
-		}
+        }
 
 		StartCoroutine (TranstionToNextQuestion());
 	}

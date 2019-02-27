@@ -22,7 +22,7 @@ public class MainMenu : MonoBehaviour
         }
     }
 
-    public void FadeToNextLevel ()
+    public void FadeToNextLevel()
     {
         FadeToLevel(SceneManager.GetActiveScene().buildIndex + 1);
     }
