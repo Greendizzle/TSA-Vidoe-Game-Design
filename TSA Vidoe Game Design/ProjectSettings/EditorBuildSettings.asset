@@ -4,5 +4,41 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Reworked Game/Reworked Scenes/Main Menu (Fixed).unity
+    guid: 9b2cde49ad375174f884f2b0032ada94
+  - enabled: 1
+    path: Assets/Scenes/1.unity
+    guid: 6e4099a4cfcb2634296594bd73031b85
+  - enabled: 1
+    path: Assets/Scenes/Hotel Lobby.unity
+    guid: c3cfb735def9d624e8de5596eca26263
+  - enabled: 1
+    path: Assets/Scenes/2.unity
+    guid: 506d4d56203c8c84c9e72b6b0414ccf2
+  - enabled: 1
+    path: Assets/Scenes/Elevator Lobby Scene.unity
+    guid: 5de29162938ec064797444daf80f2f82
+  - enabled: 1
+    path: Assets/Scenes/3.unity
+    guid: 2a92a097419e8934285a1fa0f1aca12a
+  - enabled: 1
+    path: Assets/Scenes/Matching.unity
+    guid: 3b133cd21c47c95419acc4823c130ac8
+  - enabled: 1
+    path: Assets/Scenes/4.unity
+    guid: 78dbbbdf145aafd4abe4d22012f9027d
+  - enabled: 1
+    path: Assets/Scenes/5.unity
+    guid: 403e50766ee5f5d4bb586f80b0dfcaf8
+  - enabled: 1
+    path: Assets/Scenes/Lock.unity
+    guid: ed0373e7ee325bd4dbcf4068b6ae11b8
+  - enabled: 1
+    path: Assets/Scenes/6.unity
+    guid: 4af3f7fb051a268418e1a0d4220b2c67
+  - enabled: 1
+    path: Assets/Scenes/Epilogue.unity
+    guid: 753146b7f24f6b64db946827a2205738
   m_configObjects: {}
