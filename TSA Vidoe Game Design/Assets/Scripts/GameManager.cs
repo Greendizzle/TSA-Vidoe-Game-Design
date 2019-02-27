@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviour {
     public void Update()
     {
         if (score == 7) {
-            Debug.Log("yaaaa");
+            
 
         }
     }
@@ -68,11 +68,8 @@ public class GameManager : MonoBehaviour {
 		unansweredQuestions.Remove (currentQuestion);
 
 		yield return new WaitForSeconds (1.0f );
-        
 		SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex);
-        score += 1;
-
-    }
+	}
 
 	public void userSelectTrue()
 	{
