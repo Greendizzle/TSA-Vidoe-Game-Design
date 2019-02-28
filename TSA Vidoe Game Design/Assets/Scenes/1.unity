@@ -477,7 +477,7 @@ MonoBehaviour:
   textDisplay: {fileID: 1744939329}
   sentences:
   - In the hotel lobby on the day of the National TSA Conference... 9:00 AM
-  typingSpeed: 0.02
+  typingSpeed: -1e+10
   continueButton: {fileID: 1917131920}
   nextscene: 0
   numberofsentences: 1
@@ -742,7 +742,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1917131921
 RectTransform:
   m_ObjectHideFlags: 0
