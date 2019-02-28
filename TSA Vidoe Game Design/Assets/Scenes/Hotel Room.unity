@@ -381,7 +381,7 @@ MonoBehaviour:
   continueButton: {fileID: 1917131920}
   nextscene: 0
   numberofsentences: 3
-  nextlevelname: Lock Room
+  nextlevelname: 5
 --- !u!4 &1712830012
 Transform:
   m_ObjectHideFlags: 0
