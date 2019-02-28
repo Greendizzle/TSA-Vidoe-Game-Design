@@ -9280,14 +9280,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 7e82304fbd2a23640ac613ce451ff64a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: aa794310ab9149f4fb057f59ff0ff38c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12186,7 +12186,7 @@ MonoBehaviour:
   m_text: 'Is this TSA''s motto?
 
 
-    "Learning to live in a technical world!"'
+    "Learning to lead in a technical world!"'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3c83e82e79d79024d97db65796576fc6, type: 2}
   m_sharedMaterial: {fileID: 21955265061826550, guid: 3c83e82e79d79024d97db65796576fc6,
@@ -18029,7 +18029,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: What is the common element on Earth?
+  m_text: What is the most common element on Earth?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3c83e82e79d79024d97db65796576fc6, type: 2}
   m_sharedMaterial: {fileID: 21955265061826550, guid: 3c83e82e79d79024d97db65796576fc6,
@@ -18107,11 +18107,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
+  m_isInputParsingRequired: 1
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
