@@ -269,6 +269,7 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1083945608
 GameObject:
   m_ObjectHideFlags: 0
@@ -447,6 +448,8 @@ CanvasRenderer:
   m_GameObject: {fileID: 1248023606}
   m_CullTransparentMesh: 0
 =======
+=======
+>>>>>>> parent of 37667b0... asdfdsa
 --- !u!1001 &1526695939
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -592,7 +595,10 @@ MonoBehaviour:
   numberofsentences: 1
   nextlevelname: Hotel Lobby
 <<<<<<< HEAD
+<<<<<<< HEAD
   animator: {fileID: 0}
+=======
+>>>>>>> parent of 37667b0... asdfdsa
 =======
 >>>>>>> parent of 37667b0... asdfdsa
 --- !u!4 &1712830012
