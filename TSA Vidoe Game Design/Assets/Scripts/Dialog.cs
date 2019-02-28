@@ -13,7 +13,9 @@ public class Dialog : MonoBehaviour {
     public GameObject continueButton;
     public int nextscene;
     public int numberofsentences;
-    public string nextlevelname;
+    //public string nextlevelname;
+    public Animator animator;
+    private int levelToLoad;
 
     void Update()
     {
@@ -23,7 +25,12 @@ public class Dialog : MonoBehaviour {
         }
 
         if (nextscene == numberofsentences) {
-            Application.LoadLevel(nextlevelname);
+
+
+
+            FadeToLevel(2);
+
+            //Application.LoadLevel(nextlevelname);
             Debug.Log("Done");
 
         }
@@ -69,9 +76,25 @@ public class Dialog : MonoBehaviour {
     public void buttonPress() {
 
 
-      
 
-}
-    
+        
+    }
+
+    public void FadeToNextLevel()
+    {
+        FadeToLevel(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void FadeToLevel(int levelIndex)
+    {
+        levelToLoad = levelIndex;
+        animator.SetTrigger("FadeOut");
+    }
+
+    public void OnFadeComplete()
+    {
+        SceneManager.LoadScene(levelToLoad);
+    }
+
 
 }
