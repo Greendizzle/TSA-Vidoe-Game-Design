@@ -13,7 +13,7 @@ public class Dialog : MonoBehaviour {
     public GameObject continueButton;
     public int nextscene;
     public int numberofsentences;
-    public string nextlevelname;
+    //public string nextlevelname;
     public Animator animator;
     private int levelToLoad;
 
@@ -28,10 +28,9 @@ public class Dialog : MonoBehaviour {
 
 
 
-            
+            FadeToLevel(2);
 
-            Application.LoadLevel(nextlevelname);
-
+            //Application.LoadLevel(nextlevelname);
             Debug.Log("Done");
 
         }
