@@ -4,26 +4,36 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-public class MainMenu : MonoBehaviour
+public class DialogueFade : MonoBehaviour
 {
     public Animator animator;
 
     private int levelToLoad;
-    
+    private int buttonTimes;
+    public int numberofsentences;
 
+    public void Update()
+    {
+        if (numberofsentences <= buttonTimes)
+        {
+
+            FadeToNextLevel();
+
+        }
+    }
 
     public void FadeToNextLevel()
     {
         FadeToLevel(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    public void FadeToLevel (int levelIndex)
+    public void FadeToLevel(int levelIndex)
     {
         levelToLoad = levelIndex;
         animator.SetTrigger("FadeOut");
     }
 
-    public void OnFadeComplete ()
+    public void OnFadeComplete()
     {
         SceneManager.LoadScene(levelToLoad);
     }
@@ -34,5 +44,9 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
     }
 
-    
+    public void buttonPress()
+    {
+        buttonTimes += 1;
+    }
 }
+
