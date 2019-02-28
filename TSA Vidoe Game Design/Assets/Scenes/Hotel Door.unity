@@ -560,7 +560,7 @@ MonoBehaviour:
   - 'David: *Pushes a button* Huh... It looks like that when I press one it reveals
     a shape... *Pushes another button*'
   - 'Door: Error!'
-  - Davod" What's this? It seem like there are a pair of each shape...
+  - 'David: What''s this? It seem like there are a pair of each shape...'
   typingSpeed: 0.02
   continueButton: {fileID: 1917131920}
   nextscene: 0
