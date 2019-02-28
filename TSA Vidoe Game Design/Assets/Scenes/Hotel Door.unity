@@ -563,8 +563,8 @@ MonoBehaviour:
   - Davod" What's this? It seem like there are a pair of each shape...
   typingSpeed: 0.02
   continueButton: {fileID: 1917131920}
-  nextscene: 11
-  numberofsentences: 12
+  nextscene: 0
+  numberofsentences: 5
   nextlevelname: Level 2 Transition
 --- !u!4 &1712830012
 Transform:
