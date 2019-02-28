@@ -490,8 +490,8 @@ MonoBehaviour:
   - To beat level 1 the player must get seven questions right...
   typingSpeed: 0.02
   continueButton: {fileID: 1917131920}
-  nextscene: 11
-  numberofsentences: 12
+  nextscene: 0
+  numberofsentences: 3
   nextlevelname: BetterTrivia
 --- !u!4 &1712830012
 Transform:
