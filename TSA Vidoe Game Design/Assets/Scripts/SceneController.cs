@@ -87,7 +87,7 @@ public class SceneController : MonoBehaviour {
     public void Update()
     {
         if (_score == 4) {
-            Application.LoadLevel("4");
+            Application.LoadLevel("Lock");
             Debug.Log("baxter is gay");
         }
     }

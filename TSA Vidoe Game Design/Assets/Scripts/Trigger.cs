@@ -7,7 +7,7 @@ public class Trigger : MonoBehaviour
 {
    
     void OnTriggerEnter2D(Collider2D col) {
-        Application.LoadLevel("6");
+        Application.LoadLevel("EndGame");
         Debug.Log("Yeah");
 
     }

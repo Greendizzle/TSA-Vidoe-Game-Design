@@ -405,12 +405,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 1744939329}
   sentences:
-  - David meets back with Daniel in the hotel lobby... 9::55 AM
+  - Davod meets back with Daniel in the hotel lobby... 9::55 AM
   typingSpeed: 0.02
   continueButton: {fileID: 1917131920}
-  nextscene: 0
-  numberofsentences: 1
-  nextlevelname: Last Scene
+  nextscene: 11
+  numberofsentences: 12
 --- !u!4 &1712830012
 Transform:
   m_ObjectHideFlags: 0
